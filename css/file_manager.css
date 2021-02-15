@@ -1,0 +1,107 @@
+/* 
+	General format for html and body
+*/
+html {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/background.jpg');
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+/* 
+	for footer 
+*/
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+
+footer p {
+	padding-top: 12px;
+    text-align: center;
+    font-size: 100%;
+	color: black;
+}
+/* 
+	for the tables in file_manager
+*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    text-align: center;
+}
+/* 
+	for navbar 
+*/
+.navbar {
+	overflow: hidden;
+	border-bottom: 2px solid black;
+}
+
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+}
+/* 
+	for sidebar 
+*/
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: transparent;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 2px 3px 2px 1p6x;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  color: black;
+  background-color: white;
+}
+
+.directory-title {
+	color: white;
+}
+/* 
+	for upload page 
+*/
+#upload {
+	margin-top: 12px;
+}
+
+
